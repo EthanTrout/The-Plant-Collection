@@ -1,0 +1,22 @@
+#nav-logo-img {
+    width: 50px;
+}
+
+
+#hero {
+    height: 70vh;
+    width: 100vw;
+    border: 0;
+    margin: 0;
+    background-color: #002f1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1,
+h2,
+h3 {
+    color: white;
+    text-align: center;
+}
