@@ -1,3 +1,9 @@
+body {
+    background-color: #002e1b;
+    width: 100%;
+}
+
+/* Navagation*/
 #nav-logo-img {
     width: 50px;
 }
@@ -6,12 +12,14 @@
     background-color: #002315;
 }
 
+/* Hero*/
 #hero {
-    height: 20vh;
+    height: 115vh;
     width: 100vw;
     border: 0;
     margin: 0;
-    background-image: url(/assets/images/Christmas_2023-05.png);
+    background-image: url(/assets/images/404312327_18000528872471397_2757856811047891466_n.jpg);
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +32,31 @@ h3 {
     text-align: center;
 }
 
+/* About me*/
+#aboutme {
+    height: 110vh;
+    background-image: url(/assets/images/Website\ background.png);
+    transform: translateY(-40vh);
+    display: flex;
+
+    align-items: center;
+    color: white;
+}
+
+.review-content {
+    padding-top: 10%;
+}
+
+.row>* {
+    width: fit-content;
+}
+
+.reviewimg {
+    width: 300px;
+    display: inline;
+}
+
+/* Content*/
 .content-section {
     height: 50vh;
     display: flex;
