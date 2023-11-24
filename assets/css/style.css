@@ -2,13 +2,16 @@
     width: 50px;
 }
 
+.midgreen-color {
+    background-color: #002315;
+}
 
 #hero {
-    height: 70vh;
+    height: 20vh;
     width: 100vw;
     border: 0;
     margin: 0;
-    background-color: #002f1b;
+    background-image: url(/assets/images/Christmas_2023-05.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +22,29 @@ h2,
 h3 {
     color: white;
     text-align: center;
+}
+
+.content-section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee-section {
+    background-image: url(/assets/images/ThePlantCollection_Insta-02.jpg);
+    background-size: cover;
+
+}
+
+.plants-section {
+    background-image: url(/assets/images/ThePlantCollection_Insta-07.jpg);
+    background-size: cover;
+
+}
+
+.art-section {
+    background-image: url(/assets/images/ThePlantCollection_Insta-12.jpg);
+    background-size: cover;
+
 }
