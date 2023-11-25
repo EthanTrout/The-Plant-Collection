@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    margin: 0;
+    color: white;
+    background-color: darkslategray;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Utilitities */
+.green {
+    background-color: #002e1b;
+}
+
+.midgreen {
+    background-color: #6e791a;
+}
+
+.mustard {
+    background-color: #cc8d1c;
+
+}
+
+.rust {
+    background-color: #ca5228;
+}
+
+.pink {
+    background-color: #e9a89d;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.header {
+    background-image: url(/assets/images/404312327_18000528872471397_2757856811047891466_n.jpg);
+    background-size: contain;
+}
+
+/* Navagation*/
+#nav-logo-img {
+    width: 50px;
+
+}
+
+
+
+/* Hero*/
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vh;
+
+}
+
+.hero {
+
+    height: 100vh;
+
+}
+
+.hero img {
+    width: 30%;
+}
+
+
+
+/* Infomation */
+
+
+.image {
+    background-image: url(/assets/images/365165371_17997623261471397_4776363333341193190_n.jpg);
+    background-size: contain;
+    height: 120vh;
+}
+
+.coffee-beans img {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.info {
+    height: 200vh;
+}
+
+
+
+
+
+
+
+/* Waves borders CSS */
+.aboutus-top-curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.aboutus-top-curve svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 320px;
+}
+
+.aboutus-top-curve .shape-fill {
+    fill: #002E1B;
+}
+
+/*  */
+.aboutus-bottom-curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.aboutus-bottom-curve svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 320px;
+}
+
+.aboutus-bottom-curve .shape-fill {
+    fill: #002E1B;
+}
+
+/*  */
+.info-top-curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.info-top-curve svg {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 200px;
+}
+
+.info-top-curve .shape-fill {
+    fill: #002E1B;
+}
+
+/*  */
+.info-bottom-curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.info-bottom-curve svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 120px;
+}
+
+.info-bottom-curve .shape-fill {
+    fill: #CA5228;
+}
