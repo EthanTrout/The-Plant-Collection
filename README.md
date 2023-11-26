@@ -37,3 +37,6 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+<https://freefrontend.com/css-social-media-icons/>
+https://www.shapedivider.app/
