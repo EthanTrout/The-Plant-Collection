@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #002e1b;
+    overflow-x: hidden;
+}
+
+/* utilitites */
+.cream {
+    background-color: #e2d9ca;
+}
+
+.darkgreen {
+    background-color: #002e1b;
+}
+
+/* Navagation*/
+#nav-logo-img {
+    width: 50px;
+}
+
+.hero {
+    border-radius: 5px;
+    border-color: #001603;
+    height: 80vh;
+
+
+}
+
+.hero-text h1 {
+    text-align: center;
+
+}
+
+.hero-image img {
+    width: 40vw;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+.subtitle {
+    color: white;
+}
