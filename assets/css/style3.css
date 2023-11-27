@@ -19,6 +19,7 @@ body {
     width: 50px;
 }
 
+/* Hero */
 .hero {
     border-radius: 5px;
     border-color: #001603;
@@ -27,17 +28,33 @@ body {
 
 }
 
-.hero-text h1 {
-    text-align: center;
+.hero-image {
+    display: flex;
+    justify-content: center;
 
 }
 
 .hero-image img {
-    width: 40vw;
+    width: auto;
     height: 70vh;
     border-radius: 5px;
 }
 
-.subtitle {
-    color: white;
+@media screen and (max-width: 600px) {
+    .hero-image img {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0;
+    }
+}
+
+.c-item {
+    height: 50vw;
+    height: 40vh;
+}
+
+.c-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
