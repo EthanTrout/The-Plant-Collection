@@ -1,0 +1,154 @@
+:root {
+    --ff: "Fira Sans", sans-serif;
+    --fw-normal: 300;
+    --fw-medium: 600;
+    --fw-bold: 800;
+
+    --fs-heading: 8rem;
+    --fs-subheading: 5rem;
+    --fs-emphasised-body: 2rem;
+    --fs-body: 1rem;
+
+    --primary-clr: #002E1B;
+    --secondary-clr: #FFFFC7;
+    --seconadry-clr-light: ;
+    --accent-clr: #FCAA67;
+
+    --spacer: 1rem;
+    --spacer-md: calc(var(--spacer)*2);
+    --spacer-lg: calc(var(--spacer)*3);
+
+    --shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+    --br: 5px;
+}
+
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+    line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Utlilities */
+.fs-heading {
+    font-size: var(--fs-heading);
+}
+
+.fs-subheading {
+    font-size: var(--fs-subheading);
+}
+
+.fs-emphasised-body {
+    font-size: var(--fs-emphasised-body);
+}
+
+.fs-body {
+    font-size: var(--fs-body);
+}
+
+.fw-normal {
+    font-weight: var(--fw-normal);
+}
+
+.fw-medium {
+    font-weight: var(--fw-medium);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.color-primary {
+    color: var(--primary-clr);
+}
+
+.color-secondary {
+    color: var(--secondary-clr);
+}
+
+.bg-color-primary {
+    background-color: var(--primary-clr);
+}
+
+.bg-color-secondary {
+    background-color: var(--secondary-clr);
+}
+
+.bg-color-accent {
+    background-color: var(--accent-clr);
+}
