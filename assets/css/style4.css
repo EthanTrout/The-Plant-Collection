@@ -211,16 +211,7 @@ textarea:not([rows]) {
 
 }
 
-.section-columns {
-    display: grid;
-    grid-template-columns: 1rem 1fr 1rem;
-    grid-template-areas:
-        ". title ."
-        ". img ."
-        ". text .";
-    gap: 1rem;
 
-}
 
 @media (min-width:50em) {
     .even-columns {
