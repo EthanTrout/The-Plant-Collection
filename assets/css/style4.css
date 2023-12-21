@@ -10,12 +10,16 @@
     --fs-subheading: 5rem;
     --fs-emphasised-body: 2rem;
     --fs-body: 1rem;
+    --fs-heading-mobile: 4rem;
+    --fs-subheading-mobile: 2.5rem;
+    --fs-emphasised-body-mobile: 1rem;
+    --fs-body-mobile: 0.5rem;
 
     --primary-clr-light: #00491b;
     --primary-clr-dark: #001e0b;
     --primary-clr: #002E1B;
     --secondary-clr: #FFFFC7;
-    --seconadry-clr-light: ;
+    --secondary-clr-light: ;
     --accent-clr: #FCAA67;
 
     --spacer: 1rem;
@@ -35,7 +39,7 @@
     --size-900: 5rem;
 }
 
-
+/* CSS Style reset taken from https: //piccalil.li/blog/a-more-modern-css-reset/ and changed for my use */
 
 /* Box sizing rules */
 *,
@@ -117,6 +121,8 @@ textarea:not([rows]) {
     min-height: 10em;
 }
 
+/* End of Reset */
+
 /* Utlilities */
 
 .br {
@@ -135,6 +141,23 @@ textarea:not([rows]) {
 
 .fs-emphasised-body {
     font-size: var(--fs-emphasised-body);
+}
+
+/* Text media query */
+@media (max-width:50em) {
+    .fs-heading {
+        font-size: var(--fs-heading-mobile);
+        line-height: 1.1;
+    }
+
+    .fs-subheading {
+        font-size: var(--fs-subheading-mobile);
+        line-height: 1.1;
+    }
+
+    .fs-emphasised-body {
+        font-size: var(--fs-emphasised-body-mobile);
+    }
 }
 
 .fs-body {
@@ -207,6 +230,7 @@ textarea:not([rows]) {
 
 }
 
+/* selects all children of flow except first child */
 :where(.flow :not(:first-child)) {
     margin-top: var(--flow-spacer, 1em);
 }
@@ -250,7 +274,7 @@ textarea:not([rows]) {
 }
 
 
-
+/* Responsive Grid media query */
 @media (min-width:50em) {
     .even-columns {
         grid-auto-flow: column;
@@ -391,4 +415,10 @@ a:hover {
 .featured-content p {
     margin-left: 33%;
     margin-top: -10%;
+}
+
+@media (max-width:50em) {
+    .section-img {
+        width: 200px;
+    }
 }
