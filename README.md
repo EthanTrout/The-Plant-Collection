@@ -2,6 +2,7 @@
 # The Plant Collection
 The Plant Collection is a charming local destination nestled in Leeds, blending the pleasures of a cozy coffee shop with the vibrant allure of a plant haven. Our website is thoughtfully crafted to offer visitors an immersive glimpse into the essence of our business, inviting them to discover the unique fusion of coffee culture and botanical delights that sets us apart
 
+
 ## intro
 The plant Collection already have a good presence on social media but they want a central hub for customers to undertsand why there coffee shop is diffrrent from others.
 
@@ -51,16 +52,28 @@ The plant Collection already have a good presence on social media but they want 
 it was very important to make it easy to quickly change design elements of the page. i created CSS variables to allow for the pages theme and format to be quickly changed.
 
 #### colors
-- --primary-clr-light:
--   --primary-clr-dark:
--  --primary-clr: 
-- --secondary-clr: 
-- --accent-clr: 
+- --primary-clr-light
+-   --primary-clr-dark
+-  --primary-clr 
+- --secondary-clr 
+- --accent-clr
+   
 
 #### font sizes and font weights
+- --ff
+-   --fw-normal
+-   --fw-medium
+-  --fw-bold
 
+-  --fs-heading
+- --fs-subheading
+- --fs-emphasised-body
+- --fs-body
 
-#### font sizing 
+### This allowed me to make up Utility classes based on these sizes of text and colors of text and background elements.
+- styling is now very easily changed by adapting these modifiers.
+- a potential feature that could be added using this and some JS would be a light and Dark mode forth the website
+
 
 ## Technologies Used
 
