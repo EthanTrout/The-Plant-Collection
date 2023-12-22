@@ -317,6 +317,12 @@ label.logo {
     text-overflow: clip;
 }
 
+/* .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+
+} */
+
 nav ul {
     float: right;
     margin-right: 20px;
@@ -358,7 +364,7 @@ a:hover {
 
 
 
-@media (max-width: 1133px) {
+/* @media (max-width: 1133px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -367,7 +373,7 @@ a:hover {
     nav ul li a {
         font-size: 10px;
     }
-}
+} */
 
 @media (max-width: 910px) {
     .checkbtn {
@@ -383,6 +389,7 @@ a:hover {
         background: var(--primary-clr-dark);
         top: 80px;
         left: -100%;
+        z-index: 1;
         text-align: center;
         transition: all .5s;
     }
