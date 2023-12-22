@@ -1,42 +1,97 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+# The Plant Collection
+The Plant Collection is a charming local destination nestled in Leeds, blending the pleasures of a cozy coffee shop with the vibrant allure of a plant haven. Our website is thoughtfully crafted to offer visitors an immersive glimpse into the essence of our business, inviting them to discover the unique fusion of coffee culture and botanical delights that sets us apart
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## intro
+The plant Collection already have a good presence on social media but they want a central hub for customers to undertsand why there coffee shop is diffrrent from others.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+#### The main goals of this website are:
+- Attract customers to the shop.
+- Give an overview of the buiness.
+- Show customers where it is and when it is open.
+- Allow repeat customers to see new menu items.
+- allow repeat customers to see what events are on.
 
-## Codeanywhere Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- ### User stories
 
-`python3 -m http.server`
+  - #### First Time Visitor Goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to find where the shop is located and the opening times.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  - #### Returning Visitor Goals
 
-`http_server`
+        1. As a Returning Visitor, I want to find information about the new food a coffee avalible.
+        2. As a Returning Visitor, I want to be able to added to a miling list to recieve updates on the shop.
+        3. As a Returning Visitor, I want to find out what events are hapenning.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - #### Frequent User Goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+        1. As a Frequent User, I want to check to see if there are any newly added menu items.
+        2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- ### Design
+  - #### Colour Scheme
+    - The page will use a dark green and lighter version mainly thoughout the page. a secondary cream colour will be used as highlight
+  - #### Typography
+    - 
+  - #### Imagery
+    -  Images are very important to showing the unique stylr of the coffee shop. The majority of pictures and videos will be pictures of the shop and the unique art created by some of its collaboartors.
 
-To log into the Heroku toolbelt CLI:
+- ### Wireframes
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
----
+### scale and editing 
+it was very important to make it easy to quickly change design elements of the page. i created CSS variables to allow for the pages theme and format to be quickly changed.
 
-Happy coding!
+#### colors
+- --primary-clr-light:
+-   --primary-clr-dark:
+-  --primary-clr: 
+- --secondary-clr: 
+- --accent-clr: 
+
+#### font sizes and font weights
+
+
+#### font sizing 
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+2. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+3. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+4. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+5. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
+### Testing User Stories from User Experience (UX) Section
 
 <https://freefrontend.com/css-social-media-icons/>
 https://www.shapedivider.app/
