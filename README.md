@@ -1,12 +1,13 @@
-
 # The Plant Collection
+
 The Plant Collection is a charming local destination nestled in Leeds, blending the pleasures of a cozy coffee shop with the vibrant allure of a plant haven. Our website is thoughtfully crafted to offer visitors an immersive glimpse into the essence of our business, inviting them to discover the unique fusion of coffee culture and botanical delights that sets us apart
 
-
 ## intro
+
 The plant Collection already have a good presence on social media but they want a central hub for customers to undertsand why there coffee shop is diffrrent from others.
 
 #### The main goals of this website are:
+
 - Attract customers to the shop.
 - Give an overview of the buiness.
 - Show customers where it is and when it is open.
@@ -35,76 +36,72 @@ The plant Collection already have a good presence on social media but they want 
         2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 - ### Design
+
   - #### Colour Scheme
     - The page will use a dark green and lighter version mainly thoughout the page. a secondary cream colour will be used as highlight
-  - #### Typography
-    - 
-  - #### Imagery
-    -  Images are very important to showing the unique stylr of the coffee shop. The majority of pictures and videos will be pictures of the shop and the unique art created by some of its collaboartors.
 
 - ### Wireframes
 
-  
-
 ## Features
 
-### scale and editing 
-it was very important to make it easy to quickly change design elements of the page. i created CSS variables to allow for the pages theme and format to be quickly changed.
+### scale and editing for futute devs
 
-#### colors
-- --primary-clr-light
--   --primary-clr-dark
--  --primary-clr 
-- --secondary-clr 
-- --accent-clr
-   
+To improve load times as the website is it is only small i didnt use bootstrap, i created my own CSS utilities library and CSS variables for devs to quickly change the style or add new content.
 
-#### font sizes and font weights
-- --ff
--   --fw-normal
--   --fw-medium
--  --fw-bold
+#### CSS variables
 
--  --fs-heading
-- --fs-subheading
-- --fs-emphasised-body
-- --fs-body
+There are variables for the main Color theme of the page which can be quickly changed from the variables.
 
-### This allowed me to make up Utility classes based on these sizes of text and colors of text and background elements.
-- styling is now very easily changed by adapting these modifiers.
-- a potential feature that could be added using this and some JS would be a light and Dark mode forth the website
+- primary-clr
+- primary-clr-light
+- primary-clr-dark
+- secondary-clr
+- accent-clr
 
+- ff
+  the family font of all text can be changed using this.
 
-## Technologies Used
+there are also variables for font weight and size, these have been using with various heading and body text utilities simillarly named
 
-### Languages Used
+- fw-normal
+- fw-medium
+- fw-bold
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- fs-heading
+- fs-subheading
+- fs-emphisised-body
+- fs-body
+- size-(200-900)
 
-### Frameworks, Libraries & Programs Used
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-2. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+  these can be changed with a media query if diferent font sizes need to be used on a smaller screen.
 
-3. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-4. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-4. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-5. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+#### Css utilities
 
-## Testing
+these follow the same naming convention but i will explain any differences here
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- color-(primary,secondary,accent)
+  this changes the text color
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- bg-color-()
+  this changes background color
+- padding-block-(400-900)
+  this will apply all around padding to elements
 
-### Testing User Stories from User Experience (UX) Section
+- container
+  this is a general container for content on the page and gives automatic margin to anything within it.
 
-<https://freefrontend.com/css-social-media-icons/>
-https://www.shapedivider.app/
+  This has two local variables that can be changed to quickly change the amount of margin on all content using .container
+
+  - LV max-with
+  - LV vertical-padding
+
+- button
+  general styling for any button or link with hover effects
+
+- even-columns
+  this is used to set an even grid of elements. the site generally uses a two column layout but 3 is also used on some sections.
+
+  this will break into one column layout on mobile.
+
+### Navigation 
+- The navigation 
