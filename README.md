@@ -105,3 +105,32 @@ these follow the same naming convention but i will explain any differences here
 
 ### Navigation 
 - The navigation 
+
+
+### The landing page 
+- the landing page includes the businesses logo and location aswell as a hand drawn image of the shop to draw the user in while keeping with the minimilist style of the business and the page.
+
+### The About section 
+- the about me includes a large title "Who are we" and a picture of the owner inside the shop in a two page collumn on desktop. highligting the main draw of the shop that it is a local business with someone who really cares about it in charge.
+  
+- it also includes a quote taken from the owner about the conception of the business and what the shop aims to be.
+
+### featured section 
+The Plant collection dont sell the same products all year round and have specials on certain products that will only be in for limited time 
+
+- this section features a one column layout on desktop highlighting the product. 
+
+- the image draws a customer to seeing a highlihted product that the business is selling that week with a description of the product underneath.
+
+### Coffee, Plants and Local
+- these sections all display the 3 different aspects of the business and go more into detail about each one
+  
+- a image is included the highlight the difference of each one 
+- a link is included at the bottom that will send them to the larger section on each aspect on the about me page.
+
+### location and opening times section 
+- this section includes key infomation on where the shop is located, when it is open and what the business sells.
+
+### footer 
+- the footer displays links to social media account of the plant collection 
+- it also displays a sign up for an emailing list 
