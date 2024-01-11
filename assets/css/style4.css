@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,600;0,800;1,100&display=swap');
 
+/* CSS variables */
 :root {
     --ff: "Fira Sans", sans-serif;
     --fw-normal: 300;
@@ -10,7 +11,7 @@
     --fs-subheading: 5rem;
     --fs-emphasised-body: 2rem;
     --fs-body: 1rem;
-    
+
     --primary-clr-light: #00491b;
     --primary-clr-dark: #001e0b;
     --primary-clr: #002E1B;
@@ -34,6 +35,7 @@
     --size-900: 5rem;
 }
 
+/* Changes all text sizes on smaller screen */
 @media (max-width:50em) {
     :root {
         --fs-heading: 4rem;
@@ -155,6 +157,8 @@ textarea:not([rows]) {
 
 /* Text media query */
 
+/* Custom CSS utilities using CSS variables */
+
 .fs-body {
     font-size: var(--fs-body);
 }
@@ -273,7 +277,7 @@ textarea:not([rows]) {
 
 
 /* Responsive Grid media query */
-@media (min-width:50em) {
+@media (min-width: 910px) {
     .even-columns {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
@@ -291,7 +295,7 @@ body {
 }
 
 
-/* Navigation */
+/* Navigation  Learnt from tutorial https: //www.youtube.com/watch?v=qKqLMlBKHlE*/
 nav {
     margin: 0;
     background: transparent;
@@ -356,16 +360,16 @@ a:hover {
 
 
 
-/* @media (max-width: 1133px) {
+@media (max-width: 666px) {
     label.logo {
-        font-size: 30px;
-        padding-left: 50px;
+        display: none;
     }
 
-    nav ul li a {
-        font-size: 10px;
+    i {
+        margin-left: -110px;
     }
-} */
+
+}
 
 @media (max-width: 910px) {
     .checkbtn {
@@ -414,6 +418,14 @@ a:hover {
     width: 100%;
     height: 80vh;
 }
+
+
+@media (max-width: 910px) {
+    .shopimg {
+        display: none;
+    }
+}
+
 
 .featured-content img {
     margin-top: -10%;

@@ -103,34 +103,53 @@ these follow the same naming convention but i will explain any differences here
 
   this will break into one column layout on mobile.
 
-### Navigation 
-- The navigation 
+### Navigation
 
+- The navigation is at the top of the page and allows a user to quickly acess links to Home, About us, Events and contact us pages.
+- The navigation highlights what page the user is on
+- When on small mobile devices the large title willnot be displayed to make the UI less cluttered.
 
-### The landing page 
+### The landing page
+
 - the landing page includes the businesses logo and location aswell as a hand drawn image of the shop to draw the user in while keeping with the minimilist style of the business and the page.
+- The drawn picture will not be displayed on very small screens as this allows mobile users to quickly get to the infomation they are looking for.
 
-### The About section 
+### The About section
+
 - the about me includes a large title "Who are we" and a picture of the owner inside the shop in a two page collumn on desktop. highligting the main draw of the shop that it is a local business with someone who really cares about it in charge.
-  
 - it also includes a quote taken from the owner about the conception of the business and what the shop aims to be.
 
-### featured section 
-The Plant collection dont sell the same products all year round and have specials on certain products that will only be in for limited time 
+### featured section
 
-- this section features a one column layout on desktop highlighting the product. 
+The Plant collection dont sell the same products all year round and have specials on certain products that will only be in for limited time
+
+- this section features a one column layout on desktop highlighting the product.
 
 - the image draws a customer to seeing a highlihted product that the business is selling that week with a description of the product underneath.
 
 ### Coffee, Plants and Local
+
 - these sections all display the 3 different aspects of the business and go more into detail about each one
-  
-- a image is included the highlight the difference of each one 
+- a image is included the highlight the difference of each one
 - a link is included at the bottom that will send them to the larger section on each aspect on the about me page.
 
-### location and opening times section 
+### location and opening times section
+
 - this section includes key infomation on where the shop is located, when it is open and what the business sells.
 
-### footer 
-- the footer displays links to social media account of the plant collection 
-- it also displays a sign up for an emailing list 
+### footer
+
+- the footer displays links to social media account of the plant collection
+- it also displays a sign up for an emailing list
+
+## bug Fixes
+
+### Responsive img sizes
+
+Images were getting very warped at in between medium to small screen sizes right before the breakpoint to change the grid to single column layout. i realised that the breakpoint was too small and needed to be increased.
+
+i also decided to set the display for one of the images on the landing page to zero on small screens as having a two image hero that you have to scroll through wasnt very intuative to users.
+
+### Nav bar title
+
+The nav bar title on very small screens (<600 width) was breaking out onto the hero. i first tried reducing the font size but this didnt look good so i decided to remove the title and display the drop down in the center. This works as the main picture left on the hero is the Title of the business in there logo.
