@@ -2,6 +2,8 @@
 
 The Plant Collection is a charming local destination nestled in Leeds, blending the pleasures of a cozy coffee shop with the vibrant allure of a plant haven. Our website is thoughtfully crafted to offer visitors an immersive glimpse into the essence of our business, inviting them to discover the unique fusion of coffee culture and botanical delights that sets us apart
 
+![](/assets/images/responsiveUI.png)
+
 ## intro
 
 The plant Collection already have a good presence on social media but they want a central hub for customers to undertsand why there coffee shop is diffrrent from others.
@@ -150,6 +152,6 @@ Images were getting very warped at in between medium to small screen sizes right
 
 i also decided to set the display for one of the images on the landing page to zero on small screens as having a two image hero that you have to scroll through wasnt very intuative to users.
 
-### Nav bar title
+### Nav bar title breaking out
 
 The nav bar title on very small screens (<600 width) was breaking out onto the hero. i first tried reducing the font size but this didnt look good so i decided to remove the title and display the drop down in the center. This works as the main picture left on the hero is the Title of the business in there logo.
