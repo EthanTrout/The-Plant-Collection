@@ -426,6 +426,7 @@ a:hover {
     }
 }
 
+/* Featured content */
 
 .featured-content img {
     margin-top: -10%;
@@ -441,3 +442,17 @@ a:hover {
         width: 200px;
     }
 } */
+
+/* Footer  */
+.social-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.social-links img {
+    min-width: 2rem;
+}
+
+.mail-list-form button {
+    display: inline-block;
+}

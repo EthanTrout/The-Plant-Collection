@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/style4.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <title>The Plant Collection</title>
   </head>
   <body>
@@ -131,41 +134,50 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
     <footer class="bg-color-secondary color-primary">
       <div class="container">
         <div class="even-columns">
           <div>
-            <ul aria-label="social links">
+            <p class="fs-subheading fw-medium">Social links</p>
+            <ul class="social-links" aria-label="social links">
               <li>
-                <a href="#" aria-label="facebook"
+                <a
+                  href="https://www.facebook.com/Theplantcollection.leeds/"
+                  aria-label="facebook"
                   ><img src="/assets/images/icons8-facebook.svg" alt=""
                 /></a>
               </li>
               <li>
-                <a href="#" aria-label="instagram"
+                <a
+                  href="https://www.instagram.com/theplantcollection.leeds/"
+                  aria-label="instagram"
                   ><img src="/assets/images/icons8-instagram.svg" alt=""
                 /></a>
               </li>
             </ul>
           </div>
-          <div>
-            <form action="">
-              <label for="email"></label>
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Email Address"
-              />
-              <button
-                class="color-secondary button"
-                type="submit"
-                data-type="inverted"
-                required
-              >
-                Sign up
-              </button>
-            </form>
+          <div class="mailing-list">
+            <p class="fs-subheading fw-medium">Mailing List</p>
+            <div>
+              <form class="mail-list-form" action="">
+                <label for="email"></label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                />
+                <button
+                  class="color-secondary button"
+                  type="submit"
+                  data-type="inverted"
+                  required
+                >
+                  Sign up
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
