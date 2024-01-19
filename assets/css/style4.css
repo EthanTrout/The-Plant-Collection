@@ -456,3 +456,20 @@ a:hover {
 .mail-list-form button {
     display: inline-block;
 }
+
+.contact-us .container {
+    --max-width: 500px;
+    height: 80vh;
+
+
+}
+
+.contact-us form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactus .container div {
+    display: inline-block;
+}
