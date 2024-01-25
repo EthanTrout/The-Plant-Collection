@@ -29,7 +29,7 @@ The plant Collection already have a good presence on social media but they want 
   - #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about the new food a coffee avalible.
-        2. As a Returning Visitor, I want to be able to added to a miling list to recieve updates on the shop.
+        2. As a Returning Visitor, I want to be able to added to a mailing list to recieve updates on the shop.
         3. As a Returning Visitor, I want to find out what events are hapenning.
 
   - #### Frequent User Goals
@@ -105,6 +105,8 @@ these follow the same naming convention but i will explain any differences here
 
   this will break into one column layout on mobile.
 
+## Home page features
+
 ### Navigation
 
 - The navigation is at the top of the page and allows a user to quickly acess links to Home, About us, Events and contact us pages.
@@ -143,6 +145,38 @@ The Plant collection dont sell the same products all year round and have special
 
 - the footer displays links to social media account of the plant collection
 - it also displays a sign up for an emailing list
+
+## About page features
+
+### Hero section
+
+-this section gives a over view of the businesses aims and culture.
+-it contains a img of the owners giving a face to the business
+
+### coffee section
+
+-this section goes into more detail about the coffee, where it is sourced andfood menu items.
+
+### plant section
+
+- this section foes into more detail about the plants that are stocked
+- this section also contains useful plant care tips
+
+## Events page features
+
+- the events page very simply displays upcoming events and dates
+- the events page will display No events if nothing is coming up
+
+## Contact us page features
+
+### mailing list form
+
+- this is a form for the user to fill out to be added to the Plnnt collection mailing list to recieve updates
+- the data is sent to plant collection via email but a Back end database needs setting up to be able to save this infomation in a future
+
+### Google map
+
+-this shows the user how to get to the Plant collection from there location
 
 ## bug Fixes
 
