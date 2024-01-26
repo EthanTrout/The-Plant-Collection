@@ -448,13 +448,14 @@ a:hover {
 .social-links {
     display: flex;
     list-style-type: none;
+    justify-content: center;
 }
 
 .social-links img {
     min-width: 2rem;
 }
 
-.mail-list-form button {
+.mail-list a {
     display: inline-block;
 }
 
