@@ -36,7 +36,7 @@
 }
 
 /* Changes all text sizes on smaller screen */
-@media (max-width:50em) {
+@media (max-width:910px) {
     :root {
         --fs-heading: 4rem;
         --fs-subheading: 2.5rem;
@@ -221,12 +221,12 @@ textarea:not([rows]) {
 
 .container {
     position: relative;
-    --max-width: 1250px;
-    --vertical-padding: 1rem;
+    /* --max-width: 1250px;
+    --vertical-padding: 1rem; */
 
-    width: min(var(--max-width), 100% - (var(--vertical-padding)*2));
+    width: min(1250px, 100% - 2rem);
     margin-inline: auto;
-    padding: var(--vertical-padding);
+    padding: 1rem;
 
 }
 
@@ -278,7 +278,7 @@ textarea:not([rows]) {
 
 
 /* Responsive Grid media query */
-@media (min-width: 910px) {
+@media (min-width: 1061px) {
     .even-columns {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
@@ -421,7 +421,7 @@ a:hover {
 }
 
 
-@media (max-width: 910px) {
+@media (max-width: 1061px) {
     .shopimg {
         display: none;
     }

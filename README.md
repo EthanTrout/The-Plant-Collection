@@ -189,3 +189,40 @@ i also decided to set the display for one of the images on the landing page to z
 ### Nav bar title breaking out
 
 The nav bar title on very small screens (<600 width) was breaking out onto the hero. i first tried reducing the font size but this didnt look good so i decided to remove the title and display the drop down in the center. This works as the main picture left on the hero is the Title of the business in there logo.
+
+### .container
+
+i tried using CSS properties with the min function in order to make it more readable.
+
+```Css
+
+.container {
+    position: relative;
+    --max-width: 1250px;
+    --vertical-padding: 1rem;
+
+    width: min(var(--max-width), 100% - (var(--vertical-padding)*2));
+    margin-inline: auto;
+    padding: var(--vertical-padding);
+
+}
+
+```
+
+the CSS validator didnt like using the variables within a calculation so i have hard
+coded the values.
+
+```Css
+
+.container {
+   position: relative;
+   /* --max-width: 1250px;
+   --vertical-padding: 1rem; */
+
+   width: min(1250px, 100% - 2rem);
+   margin-inline: auto;
+   padding: 1rem;
+
+}
+
+```
