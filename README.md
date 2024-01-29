@@ -8,13 +8,14 @@ The Plant Collection is a charming local destination nestled in Leeds, blending 
 
 The plant Collection already have a good presence on social media but they want a central hub for customers to undertsand why there coffee shop is diffrrent from others.
 
-#### The main goals of this website are:
+#### The main goals of this website for the site owner are:
 
-- Attract customers to the shop.
-- Give an overview of the buiness.
-- Show customers where it is and when it is open.
-- Allow repeat customers to see new menu items.
-- allow repeat customers to see what events are on.
+        - Attract customers to the shop.
+        - Give an overview of the buiness.
+        - Show customers where it is and when it is open.
+        - Allow repeat customers to see new menu items.
+        - allow repeat customers to see what events are on.
+        - create a website that is able to be easily edited by a future dev
 
 ## User Experience (UX)
 
@@ -183,24 +184,53 @@ The Plant collection dont sell the same products all year round and have special
 ### Validator Testing
 
 - #### HTML
-- ### Home page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+
+  - ##### Home page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+
+    - no errors or warnings were found
+
+  - ##### About us page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+
+    - no errors or warnings were found
+
+  - ##### Events page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+
+    - no errors or warnings were found
+
+  - ##### Contact us page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+    - no errors or warnings were found
 
 - #### CSS
 
+  - ##### Css for all pages [W3S Style sheet](https://jigsaw.w3.org/css-validator/validator)
+    - no errors or warnings were found
+
 - #### Accessibility
+  - Acessibility passes the lighthouse testing and acheived a score of 100%
+  - [lighthousescore]()
 
 ### Form Testing
 
+- the form has been tested to see if it submits the right data and that all the data is required to actually submit the form.
+- the form was posted to [code institute form dump](https://formdump.codeinstitute.net/) where the data can be senn
+
 ### Links Testing
 
+- links have all been manually tested on each browers to make sure that they are all working and going to the correct address
+
 ### Browser Testing
+
+- manual testing has been done on chroms,safari,edge and firefox and no errors or bugs have been found
 
 ### Device Testing
 
 - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
 - [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
 
-### Friends and Family User Testing
+### Friends and Business owner User Testing
+
+- i took the website into the coffee shop to get the owners to user test it and give feedback on any changes that they would want.
+- i asked some friends to try out the site to find any bugs or issues with user experience
 
 ## bug Fixes
 
@@ -250,3 +280,27 @@ coded the values.
 }
 
 ```
+
+## Technologies Used
+
+### Languages
+
+- HTML5
+- CSS
+
+### Frameworks - Libraries - Programs Used
+
+- [Am I Responsive](http://ami.responsivedesign.is/) -
+- [Responsinator](http://www.responsinator.com/) -
+- [Balsamiq](https://balsamiq.com/) -
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) -
+- [Font Awesome](https://fontawesome.com/) -
+- [GitHub](https://github.com/) -
+- [Google Fonts](https://fonts.google.com/) -
+- [TinyPNG](https://tinypng.com/) -
+- [W3C](https://www.w3.org/) -
+- PhotoShop - Used to edit the site images
+
+### Media
+
+- all media used was given by the owners of the shop and there visual artist.
