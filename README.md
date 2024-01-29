@@ -178,6 +178,30 @@ The Plant collection dont sell the same products all year round and have special
 
 -this shows the user how to get to the Plant collection from there location
 
+## Testing
+
+### Validator Testing
+
+- #### HTML
+- ### Home page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+
+- #### CSS
+
+- #### Accessibility
+
+### Form Testing
+
+### Links Testing
+
+### Browser Testing
+
+### Device Testing
+
+- [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
+- [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
+
+### Friends and Family User Testing
+
 ## bug Fixes
 
 ### Responsive img sizes
