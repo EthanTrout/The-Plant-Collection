@@ -36,7 +36,7 @@
 }
 
 /* Changes all text sizes on smaller screen */
-@media (max-width:910px) {
+@media (max-width:961px) {
     :root {
         --fs-heading: 4rem;
         --fs-subheading: 2.5rem;
@@ -278,7 +278,7 @@ textarea:not([rows]) {
 
 
 /* Responsive Grid media query */
-@media (min-width: 910px) {
+@media (min-width: 961px) {
     .even-columns {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
@@ -333,7 +333,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    font-size: 17px;
+    font-size: 10px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
@@ -378,7 +378,7 @@ a:hover {
 
 }
 
-@media (max-width: 910px) {
+@media (max-width: 961px) {
     .checkbtn {
         display: block;
     }
@@ -404,7 +404,7 @@ a:hover {
     }
 
     nav ul li a {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     a:hover,
@@ -431,7 +431,7 @@ a:hover {
 }
 
 
-@media (max-width: 910px) {
+@media (max-width: 961px) {
     .shopimg {
         display: none;
     }
