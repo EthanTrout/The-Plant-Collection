@@ -278,7 +278,7 @@ textarea:not([rows]) {
 
 
 /* Responsive Grid media query */
-@media (min-width: 1061px) {
+@media (min-width: 910px) {
     .even-columns {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
@@ -367,7 +367,13 @@ a:hover {
     }
 
     i {
-        margin-left: -100px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+
     }
 
 }
@@ -413,15 +419,19 @@ a:hover {
 }
 
 
-
 /* Hero */
-.hero img {
+.hero-img-container {
     width: 100%;
-    height: 80vh;
+
+}
+
+.hero img {
+    object-fit: contain;
+
 }
 
 
-@media (max-width: 1061px) {
+@media (max-width: 910px) {
     .shopimg {
         display: none;
     }
