@@ -194,19 +194,27 @@ The Plant collection dont sell the same products all year round and have special
 -this section gives a over view of the businesses aims and culture.
 -it contains a img of the owners giving a face to the business
 
+![About us hero](/assets/readme-images/Screenshot-about-hero.png)
+
 ### coffee section
 
 -this section goes into more detail about the coffee, where it is sourced andfood menu items.
+
+![About us hero](/assets/readme-images/Screenshot-about-coffee.png)
 
 ### plant section
 
 - this section foes into more detail about the plants that are stocked
 - this section also contains useful plant care tips
 
+![About us hero](/assets/readme-images/Screenshot-about-plants.png)
+
 ## Events page features
 
 - the events page very simply displays upcoming events and dates
 - the events page will display No events if nothing is coming up
+
+![About us hero](/assets/readme-images/Screenshot-events.png)
 
 ## Contact us page features
 
@@ -215,9 +223,13 @@ The Plant collection dont sell the same products all year round and have special
 - this is a form for the user to fill out to be added to the Plnnt collection mailing list to recieve updates
 - the data is sent to plant collection via email but a Back end database needs setting up to be able to save this infomation in a future
 
+![Mailing list form](/assets/readme-images/Screenshot-contact.png)
+
 ### Google map
 
 -this shows the user how to get to the Plant collection from there location
+
+![google map](/assets/readme-images/Screenshot-contact-map.png)
 
 ## Features still to add
 
