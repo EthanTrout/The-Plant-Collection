@@ -41,7 +41,15 @@ The plant Collection already have a good presence on social media but they want 
 - ### Design
 
   - #### Colour Scheme
-    - The page will use a dark green and lighter version mainly thoughout the page. a secondary cream colour will be used as highlight
+
+        - The page will use a dark green and lighter version mainly thoughout the page. a secondary cream colour will be used as highlight. these are the Plant collections color scheme they use with the business.
+
+  - #### imagery
+    - imagery is very imporant for this business as one of the main drivers of what makes this coffee shop different is that the the look and style of the business.
+    - all images will be taken from the business as the propperly portray the aesthetic of the shop.
+
+- #### font
+- the font ---- was chosen ad it most closes looks like the font used in all of the Plant collections digital media.
 
 - ### Wireframes
 <details>
@@ -59,11 +67,9 @@ The plant Collection already have a good presence on social media but they want 
 
  </details>
 
- orginally the hero was going to be one image but the two image hero fits better with the two column layout of the desktop site,one image is used when on mobile.
+orginally the hero was going to be one image but the two image hero fits better with the two column layout of the desktop site,one image is used when on mobile.
 
- The reviews section was removed as per disscused with the site owner as they wish to later have the reviews be the most recent reviews using the google reviews API- this could be a feature later added.
-
- 
+The reviews section was removed as per disscused with the site owner as they wish to later have the reviews be the most recent reviews using the google reviews API- this could be a feature later added.
 
 ## Features
 
@@ -134,15 +140,21 @@ these follow the same naming convention but i will explain any differences here
 - The navigation highlights what page the user is on
 - When on small mobile devices the large title willnot be displayed to make the UI less cluttered.
 
+![Nav Bar](/assets/readme-images/Screenshot-navbar.png)
+
 ### The landing page
 
 - the landing page includes the businesses logo and location aswell as a hand drawn image of the shop to draw the user in while keeping with the minimilist style of the business and the page.
 - The drawn picture will not be displayed on very small screens as this allows mobile users to quickly get to the infomation they are looking for.
 
+![Hero](/assets/readme-images/Screenshot-hero.png)
+
 ### The About section
 
 - the about me includes a large title "Who are we" and a picture of the owner inside the shop in a two page collumn on desktop. highligting the main draw of the shop that it is a local business with someone who really cares about it in charge.
 - it also includes a quote taken from the owner about the conception of the business and what the shop aims to be.
+
+![About us](/assets/readme-images/Screenshot-whoarewe.png)
 
 ### featured section
 
@@ -152,20 +164,28 @@ The Plant collection dont sell the same products all year round and have special
 
 - the image draws a customer to seeing a highlihted product that the business is selling that week with a description of the product underneath.
 
+![Featured](/assets/readme-images/Screenshot-featured.png)
+
 ### Coffee, Plants and Local
 
 - these sections all display the 3 different aspects of the business and go more into detail about each one
 - a image is included the highlight the difference of each one
 - a link is included at the bottom that will send them to the larger section on each aspect on the about me page.
 
+![Sections](/assets/readme-images/Screenshot-section.png)
+
 ### location and opening times section
 
 - this section includes key infomation on where the shop is located, when it is open and what the business sells.
+
+![Location](/assets/readme-images/Screenshot-location.png)
 
 ### footer
 
 - the footer displays links to social media account of the plant collection
 - it also displays a sign up for an emailing list
+
+![footer](/assets/readme-images/Screenshot-footer.png)
 
 ## About page features
 
@@ -199,12 +219,14 @@ The Plant collection dont sell the same products all year round and have special
 
 -this shows the user how to get to the Plant collection from there location
 
-
 ## Features still to add
+
 ### Reviews
+
 - adding static reviews would need constant updating, in future adding reviews from the Google reviews API might add to the site.
 
 ### Mailing List
+
 - currently the dat from the contact us form is sent to Codeistite formdump to prove that it works, in future sending this to a database or email collection app would be preferable so the website owners can set up a mailing list.
 
 ## Testing
