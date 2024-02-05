@@ -187,9 +187,14 @@ textarea:not([rows]) {
     background-color: var(--primary-clr);
 }
 
+.bg-color-primary-drk {
+    background-color: var(--primary-clr-dark);
+}
+
 .bg-color-secondary {
     background-color: var(--secondary-clr);
 }
+
 
 .bg-color-accent {
     background-color: var(--accent-clr);

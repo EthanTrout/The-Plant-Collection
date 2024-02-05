@@ -44,6 +44,26 @@ The plant Collection already have a good presence on social media but they want 
     - The page will use a dark green and lighter version mainly thoughout the page. a secondary cream colour will be used as highlight
 
 - ### Wireframes
+<details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](/assets/readme-images/desktop-writeframe.png)
+
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](/assets/readme-images/mobile-wireframe.png)
+
+ </details>
+
+ orginally the hero was going to be one image but the two image hero fits better with the two column layout of the desktop site,one image is used when on mobile.
+
+ The reviews section was removed as per disscused with the site owner as they wish to later have the reviews be the most recent reviews using the google reviews API- this could be a feature later added.
+
+ 
 
 ## Features
 
@@ -178,6 +198,14 @@ The Plant collection dont sell the same products all year round and have special
 ### Google map
 
 -this shows the user how to get to the Plant collection from there location
+
+
+## Features still to add
+### Reviews
+- adding static reviews would need constant updating, in future adding reviews from the Google reviews API might add to the site.
+
+### Mailing List
+- currently the dat from the contact us form is sent to Codeistite formdump to prove that it works, in future sending this to a database or email collection app would be preferable so the website owners can set up a mailing list.
 
 ## Testing
 
