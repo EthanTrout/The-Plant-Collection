@@ -372,3 +372,4 @@ coded the values.
 - inspiration for CSS only nav bar [Youtube tutorial](https://www.youtube.com/watch?v=qKqLMlBKHlE)
 - tutorials on CSS variables [Kevin powell youtube](https://www.youtube.com/@KevinPowell)
 - [Stack Overflow](https://stackoverflow.com/)
+- CSS reset [Reset](http://piccalil.li/blog/a-more-modern-css-reset/)
