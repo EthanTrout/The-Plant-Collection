@@ -366,3 +366,9 @@ coded the values.
 ### Media
 
 - all media used was given by the owners of the shop and there visual artist.
+
+### Resources used
+
+- inspiration for CSS only nav bar [Youtube tutorial](https://www.youtube.com/watch?v=qKqLMlBKHlE)
+- tutorials on CSS variables [Kevin powell youtube](https://www.youtube.com/@KevinPowell)
+- [Stack Overflow](https://stackoverflow.com/)
