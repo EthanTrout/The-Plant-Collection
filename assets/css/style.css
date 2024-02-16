@@ -289,7 +289,7 @@ textarea:not([rows]) {
 
 
 /* Responsive Grid media query */
-@media (min-width: 1032px) {
+@media (min-width: 1049px) {
     .even-columns {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
@@ -384,7 +384,7 @@ a:hover {
 
 }
 
-@media (max-width: 1032px) {
+@media (max-width: 1049px) {
     .checkbtn {
         display: block;
     }
@@ -437,7 +437,7 @@ a:hover {
 }
 
 
-@media (max-width: 1032px) {
+@media (max-width: 1049px) {
     .shopimg {
         display: none;
     }
