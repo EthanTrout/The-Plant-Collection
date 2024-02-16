@@ -1,8 +1,8 @@
 
-@font-face{font-family:Allaina;src:url(C:\Users\Ethan\Documents\GitHub\PlantCollectionFinal\The-Plant-Collection\assets\fonts\Creativemedialab-AllainaBoldItalic.ttf),url(C:\Users\Ethan\Documents\GitHub\PlantCollectionFinal\The-Plant-Collection\assets\fonts\Creativemedialab-AllainaMediumItalic.ttf)}
+@font-face{font-family:Allaina;src:url(.\assets\fonts\Creativemedialab-AllainaBoldItalic.ttf),url(.\assets\fonts\Creativemedialab-AllainaMediumItalic.ttf)}
 @font-face {
     font-family:HeroinePro ;
-    src: url(C:\Users\Ethan\Documents\GitHub\PlantCollectionFinal\The-Plant-Collection\assets\fonts\HeroinePro-CondExtraBold.otf);
+    src: url(./assets\fonts\HeroinePro-CondExtraBold.otf);
 }
 /* CSS variables */
 :root {
