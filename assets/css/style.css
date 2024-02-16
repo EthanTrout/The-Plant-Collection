@@ -142,6 +142,10 @@ textarea:not([rows]) {
     border-radius: var(--br);
 }
 
+.br-circle{
+    border-radius: 100%;
+}
+
 .fs-heading {
     font-size: var(--fs-heading);
     font-family: var(--ff-heading);
