@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,600;0,800;1,100&display=swap');
 
+@font-face{font-family:Allaina;src:url(C:\Users\Ethan\Documents\GitHub\PlantCollectionFinal\The-Plant-Collection\assets\fonts\Creativemedialab-AllainaBoldItalic.ttf),url(C:\Users\Ethan\Documents\GitHub\PlantCollectionFinal\The-Plant-Collection\assets\fonts\Creativemedialab-AllainaMediumItalic.ttf)}
+@font-face {
+    font-family:HeroinePro ;
+    src: url(C:\Users\Ethan\Documents\GitHub\PlantCollectionFinal\The-Plant-Collection\assets\fonts\HeroinePro-CondExtraBold.otf);
+}
 /* CSS variables */
 :root {
-    --ff: "Fira Sans", sans-serif;
+    --ff: "HeroinePro";
+    --ff-heading:"Allaina";
     --fw-normal: 300;
     --fw-medium: 600;
     --fw-bold: 800;
@@ -139,6 +144,7 @@ textarea:not([rows]) {
 
 .fs-heading {
     font-size: var(--fs-heading);
+    font-family: var(--ff-heading);
     line-height: 1.1;
     text-align: center;
 
@@ -152,6 +158,7 @@ textarea:not([rows]) {
 
 .fs-emphasised-body {
     font-size: var(--fs-emphasised-body);
+    font-family: var(--ff-heading);
     text-align: center;
 }
 
