@@ -255,29 +255,29 @@ The Plant collection dont sell the same products all year round and have special
 
 - #### HTML
 
-  - ##### Home page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+  - ##### Home page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2F)
 
     - no errors or warnings were found
 
-  - ##### About us page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+  - ##### About us page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Faboutus.html)
 
     - no errors or warnings were found
 
-  - ##### Events page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+  - ##### Events page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Fevents.html)
 
     - no errors or warnings were found
 
-  - ##### Contact us page [W3S Homepage Html](https://validator.w3.org/nu/#textarea)
+  - ##### Contact us page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Fcontactus.html)
     - no errors or warnings were found
 
 - #### CSS
 
-  - ##### Css for all pages [W3S Style sheet](https://jigsaw.w3.org/css-validator/validator)
+  - ##### Css for all pages [W3S Style sheet](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     - no errors or warnings were found
 
 - #### Accessibility
   - Acessibility passes the lighthouse testing and acheived a score of 100%
-  - [lighthousescore]()
+  - [lighthousescore](/assets/readme-images/Screenshot-lighthouse.png)
 
 ### Form Testing
 
@@ -290,16 +290,19 @@ The Plant collection dont sell the same products all year round and have special
 
 ### Browser Testing
 
-- manual testing has been done on chroms,safari,edge and firefox and no errors or bugs have been found
+- manual testing has been done on chrome,safari,edge and firefox and no errors or bugs have been found
 
 ### Device Testing
 
-- [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
-- [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
+- [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2F)
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://ethantrout.github.io/The-Plant-Collection/)
 
 ### Friends and Business owner User Testing
 
 - i took the website into the coffee shop to get the owners to user test it and give feedback on any changes that they would want.
+  - the owners gave me some written content to add to the page aswell as images from the shop to add 
+  - [Owners Email](/assets/readme-images/Screenshot-email-from-owners.png)
+
 - i asked some friends to try out the site to find any bugs or issues with user experience
 
 ## bug Fixes
@@ -353,6 +356,7 @@ coded the values.
 
 ## Technologies Used
 
+
 ### Languages
 
 - HTML5
@@ -370,6 +374,9 @@ coded the values.
 - [TinyPNG](https://tinypng.com/) -
 - [W3C](https://www.w3.org/) -
 - PhotoShop - Used to edit the site images
+
+### IDE
+- at first i was using Codeanywhere to edit and test code. the software it a very good code enviroment however due to server issues, i had to move to VScode for a portion of the project and work from a different branch because of permissions. 
 
 ### Media
 
