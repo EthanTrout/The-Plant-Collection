@@ -1,9 +1,12 @@
 
-@font-face{font-family:Allaina;src:url(.\assets\fonts\Creativemedialab-AllainaBoldItalic.ttf),url(.\assets\fonts\Creativemedialab-AllainaMediumItalic.ttf)}
+@font-face{font-family:Allaina ;
+    src:url(.\assets\fonts\Creativemedialab-Allaina-Medium.ttf);
+}
 @font-face {
     font-family:HeroinePro ;
     src: url(./assets\fonts\HeroinePro-CondExtraBold.otf);
 }
+
 /* CSS variables */
 :root {
     --ff: "HeroinePro";
