@@ -1,10 +1,10 @@
 
 @font-face{font-family:Allaina ;
-    src:url(.\assets\fonts\Creativemedialab-Allaina-Medium.ttf);
+    src:url(.\assets\fonts\Creativemedialab-Allaina-Medium.woff);
 }
 @font-face {
     font-family:HeroinePro ;
-    src: url(./assets\fonts\HeroinePro-CondExtraBold.otf);
+    src: url(./assets\fonts\HeroinePro-CondExtraBold.woff);
 }
 
 /* CSS variables */
