@@ -49,7 +49,12 @@ The plant Collection already have a good presence on social media but they want 
     - all images will be taken from the business as the propperly portray the aesthetic of the shop.
 
 - #### font
-- the font ---- was chosen ad it most closes looks like the font used in all of the Plant collections digital media.
+- the font Heroinepro should be used for all titles and Aliana for all other text. this has been expressed by the owners as it fits there online presence and imagery.
+
+![Fonts](/assets/readme-images/Screenshot-fonts.png)
+
+i have had issues with getting these fonts to work on the website. this could be a future feature to add. 
+
 
 - ### Wireframes
 <details>
@@ -239,8 +244,11 @@ The Plant collection dont sell the same products all year round and have special
 
 ### Mailing List
 
-- currently the dat from the contact us form is sent to Codeistite formdump to prove that it works, in future sending this to a database or email collection app would be preferable so the website owners can set up a mailing list.
+- currently the data from the contact us form is sent to Codeistite formdump to prove that it works, in future sending this to a database or email collection app would be preferable so the website owners can set up a mailing list.
 
+
+### Fonts 
+- Adding HeroinePro and Aliana font to the website as discussed with the owners would be good to add. I have had issues with the fonts causing page shift and therefore if i had more time on the project i could fix this issue
 ## Testing
 
 ### Validator Testing
