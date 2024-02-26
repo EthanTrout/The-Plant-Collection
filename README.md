@@ -249,6 +249,10 @@ The Plant collection dont sell the same products all year round and have special
 
 ### Fonts 
 - Adding HeroinePro and Aliana font to the website as discussed with the owners would be good to add. I have had issues with the fonts causing page shift and therefore if i had more time on the project i could fix this issue
+
+### JS for nav bar 
+- the nav bar works however in a future addition using JS for the pop up might be benefical.
+
 ## Testing
 
 ### Validator Testing
@@ -294,7 +298,6 @@ The Plant collection dont sell the same products all year round and have special
 
 ### Device Testing
 
-- [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2F)
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://ethantrout.github.io/The-Plant-Collection/)
 
 ### Friends and Business owner User Testing
