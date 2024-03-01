@@ -145,21 +145,21 @@ these follow the same naming convention but i will explain any differences here
 - The navigation highlights what page the user is on
 - When on small mobile devices the large title willnot be displayed to make the UI less cluttered.
 
-![Nav Bar](/assets/readme-images/Screenshot-navbar.png)
+![Nav Bar](/assets/readme-images/screenshot-navbar.png)
 
 ### The landing page
 
 - the landing page includes the businesses logo and location aswell as a hand drawn image of the shop to draw the user in while keeping with the minimilist style of the business and the page.
 - The drawn picture will not be displayed on very small screens as this allows mobile users to quickly get to the infomation they are looking for.
 
-![Hero](/assets/readme-images/Screenshot-hero.png)
+![Hero](/assets/readme-images/screenshot-hero.png)
 
 ### The About section
 
 - the about me includes a large title "Who are we" and a picture of the owner inside the shop in a two page collumn on desktop. highligting the main draw of the shop that it is a local business with someone who really cares about it in charge.
 - it also includes a quote taken from the owner about the conception of the business and what the shop aims to be.
 
-![About us](/assets/readme-images/Screenshot-whoarewe.png)
+![About us](/assets/readme-images/screenshot-whoarewe.png)
 
 ### featured section
 
@@ -169,7 +169,7 @@ The Plant collection dont sell the same products all year round and have special
 
 - the image draws a customer to seeing a highlihted product that the business is selling that week with a description of the product underneath.
 
-![Featured](/assets/readme-images/Screenshot-featured.png)
+![Featured](/assets/readme-images/screenshot-featured.png)
 
 ### Coffee, Plants and Local
 
@@ -177,49 +177,62 @@ The Plant collection dont sell the same products all year round and have special
 - a image is included the highlight the difference of each one
 - a link is included at the bottom that will send them to the larger section on each aspect on the about me page.
 
-![Sections](/assets/readme-images/Screenshot-section.png)
+![Sections](/assets/readme-images/screenshot-coffee.png)
+![Sections](/assets/readme-images/screenshot-plants.png)
+![Sections](/assets/readme-images/screenshot-local.png)
 
 ### location and opening times section
 
 - this section includes key infomation on where the shop is located, when it is open and what the business sells.
 
-![Location](/assets/readme-images/Screenshot-location.png)
+![Location](/assets/readme-images/screenshot-footer-location.png)
 
 ### footer
 
 - the footer displays links to social media account of the plant collection
 - it also displays a sign up for an emailing list
 
-![footer](/assets/readme-images/Screenshot-footer.png)
+![footer](/assets/readme-images/screenshot-footer.png)
 
 ## About page features
 
 ### Hero section
 
 -this section gives a over view of the businesses aims and culture.
--it contains a img of the owners giving a face to the business
+-it contains a img the home made food served at plant collection to show its authenticity
 
-![About us hero](/assets/readme-images/Screenshot-about-hero.png)
+![About us hero](/assets/readme-images/screenshot-aboutus-hero.png)
+
+### additional information
+- when recieving feedback from the owners they sent over more content, a description to add to the about me to let customers know more about the business and aims 
+
+![About us Additional](/assets/readme-images/screenshot-aboutus-additional.png)
+
+### Video Tour
+- the daily mail did a news story on the plant collection and a Iframe has been added here to link to that page
+- in future a home made video could be put in place of this one 
+
+![About us video](/assets/readme-images/screenshot-aboutus-video.png)
 
 ### coffee section
 
 -this section goes into more detail about the coffee, where it is sourced andfood menu items.
 
-![About us hero](/assets/readme-images/Screenshot-about-coffee.png)
+![About us Coffee](/assets/readme-images/screenshot-aboutus-coffee.png)
 
 ### plant section
 
 - this section foes into more detail about the plants that are stocked
 - this section also contains useful plant care tips
 
-![About us hero](/assets/readme-images/Screenshot-about-plants.png)
+![About us Plants](/assets/readme-images/screenshot-aboutus-plants.png)
 
 ## Events page features
 
 - the events page very simply displays upcoming events and dates
 - the events page will display No events if nothing is coming up
 
-![About us hero](/assets/readme-images/Screenshot-events.png)
+![Events](/assets/readme-images/screenshot-events.png)
 
 ## Contact us page features
 
@@ -228,13 +241,13 @@ The Plant collection dont sell the same products all year round and have special
 - this is a form for the user to fill out to be added to the Plnnt collection mailing list to recieve updates
 - the data is sent to plant collection via email but a Back end database needs setting up to be able to save this infomation in a future
 
-![Mailing list form](/assets/readme-images/Screenshot-contact.png)
+![Mailing list form](/assets/readme-images/screenshot-signup.png)
 
 ### Google map
 
 -this shows the user how to get to the Plant collection from there location
 
-![google map](/assets/readme-images/Screenshot-contact-map.png)
+![google map](/assets/readme-images/screenshot-contact-map.png)
 
 ## Features still to add
 
@@ -281,7 +294,7 @@ The Plant collection dont sell the same products all year round and have special
 
 - #### Accessibility
   - Acessibility passes the lighthouse testing and acheived a score of 100%
-  - [lighthousescore](/assets/readme-images/Screenshot-lighthouse.png)
+  - [lighthousescore](/assets/readme-images/screenshot-lighthouse.png)
 
 ### Form Testing
 
@@ -304,7 +317,7 @@ The Plant collection dont sell the same products all year round and have special
 
 - i took the website into the coffee shop to get the owners to user test it and give feedback on any changes that they would want.
   - the owners gave me some written content to add to the page aswell as images from the shop to add 
-  - [Owners Email](/assets/readme-images/Screenshot-email-from-owners.png)
+  - [Owners Email](/assets/readme-images/screenshot-email-from-owners.png)
 
 - i asked some friends to try out the site to find any bugs or issues with user experience
 
