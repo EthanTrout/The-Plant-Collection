@@ -51,7 +51,7 @@ The plant Collection already have a good presence on social media but they want 
 - #### font
 - the font Heroinepro should be used for all titles and Aliana for all other text. this has been expressed by the owners as it fits there online presence and imagery.
 
-![Fonts](/assets/readme-images/Screenshot-fonts.png)
+![Fonts](/assets/readme-images/screenshot-fonts.png)
 
 i have had issues with getting these fonts to work on the website. this could be a future feature to add. 
 
