@@ -201,7 +201,7 @@ The Plant collection dont sell the same products all year round and have special
 -this section gives a over view of the businesses aims and culture.
 -it contains a img the home made food served at plant collection to show its authenticity
 
-![About us hero](/assets/readme-images/screenshot-aboutus-hero.png)
+![About us hero](/assets/readme-images/screenshot-aboutus.png)
 
 ### additional information
 - when recieving feedback from the owners they sent over more content, a description to add to the about me to let customers know more about the business and aims 
