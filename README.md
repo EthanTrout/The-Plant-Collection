@@ -11,43 +11,43 @@ The Plant Collection already has a good presence on social media, but they want 
 
 #### The main goals of this website for the site owner are:
 
-        - Attract customers to the shop.
-        - Give an overview of the business.
-        - Show customers where it is and when it is open.
-        - Allow repeat customers to see new menu items.
-        - allow repeat customers to see what events are on.
-        - create a website that is easily edited by a future developer.
+  - Attract customers to the shop.
+  - Give an overview of the business.
+  - Show customers where it is and when it is open.
+  - Allow repeat customers to see new menu items.
+  - allow repeat customers to see what events are on.
+  - create a website that is easily edited by a future developer.
 
 ## User Experience (UX)
 
 - ### User stories
 
-  - #### First Time Visitor Goals
+    - #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to find out where the shop is located and the opening times.
+      1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the         organisation.
+      2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+      3. As a First Time Visitor, I want to find out where the shop is located and the opening times.
 
-  - #### Returning Visitor Goals
+    - #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about the new food a coffee available.
-        2. As a Returning Visitor, I want to be added to a mailing list to receive updates on the shop.
-        3. As a Returning Visitor, I want to find out what events are happening.
+      1. As a Returning Visitor, I want to find information about the new food a coffee available.
+      2. As a Returning Visitor, I want to be added to a mailing list to receive updates on the shop.
+      3. As a Returning Visitor, I want to find out what events are happening.
 
-  - #### Frequent User Goals
+    - #### Frequent User Goals
 
-        1. As a Frequent User, I want to check to see if there are any newly added menu items.
-        2. As a Frequent User, I want to sign up for the newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+      1. As a Frequent User, I want to check to see if there are any newly added menu items.
+      2. As a Frequent User, I want to sign up for the newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 - ### Design
 
-  - #### Colour Scheme
+    - #### Colour Scheme
 
-        - The page will use a dark green and lighter version mainly throughout the page. A secondary cream colour will be used as a highlight. These are the Plant collections colour schemes they use with the business.
+      - The page will use a dark green and lighter version mainly throughout the page. A secondary cream colour will be used as a highlight. These are the Plant collections colour schemes they use with the business.
 
-  - #### imagery
-    - imagery is very important for this business, as one of the main drivers of what makes this coffee shop different is the look and style of the business.
-    - all images will be taken from the business as they properly portray the aesthetic of the shop.
+    - #### imagery
+      - imagery is very important for this business, as one of the main drivers of what makes this coffee shop different is the look and style of the business.
+      - all images will be taken from the business as they properly portray the aesthetic of the shop.
 
 - #### font
 - the font HeroinePro should be used for all titles and Aliana for all other text. This has been expressed by the owners as it fits their online presence and imagery.
