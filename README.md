@@ -3,7 +3,7 @@
 
 The Plant Collection is a charming local destination nestled in Leeds, blending the pleasures of a cosy coffee shop with the vibrant allure of a plant haven. Our website is thoughtfully crafted to offer visitors an immersive glimpse into the essence of our business, inviting them to discover the unique fusion of coffee culture and botanical delights that sets us apart.
 
-![](/assets/images/responsiveUI.png)
+![](/assets/readme-images/responsiveUI.png)
 
 ## intro
 
@@ -126,8 +126,8 @@ These follow the same naming convention, but I will explain any differences here
 
   This has two local variables that can be changed to quickly change the amount of margin on all content using .container
 
-  - LV max-with
-  - LV vertical-padding
+  - LV max-with
+  - LV vertical-padding
 
 - button
   general styling for any button or link with hover effects
@@ -245,7 +245,7 @@ The Plant Collection does not sell the same products all year round and has spec
 
 ### Google Maps
 
--this shows the user how to get to the Plant collection from their location.
+- this shows the user how to get to the Plant collection from their location.
 
 ![google map](/assets/readme-images/screenshot-contact-map.png)
 
@@ -271,29 +271,29 @@ The Plant Collection does not sell the same products all year round and has spec
 
 - #### HTML
 
-  - ##### Home page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2F)
+  - ##### Home page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2F)
 
-    - no errors or warnings were found.
+    - no errors or warnings were found.
 
-  - ##### About us page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Faboutus.html)
+  - ##### About us page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Faboutus.html)
 
-    - no errors or warnings were found.
+    - no errors or warnings were found.
 
-  - ##### Events page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Fevents.html)
+  - ##### Events page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Fevents.html)
 
-    - no errors or warnings were found.
+    - no errors or warnings were found.
 
-  - ##### Contact us page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Fcontactus.html)
-    - no errors or warnings were found.
+  - ##### Contact us page [W3S Homepage Html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Fcontactus.html)
+    - no errors or warnings were found.
 
 - #### CSS
 
-  - ##### Css for all pages [W3S Style sheet](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-    - no errors or warnings were found.
+  - ##### Css for all pages [W3S Style sheet](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fethantrout.github.io%2FThe-Plant-Collection%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - no errors or warnings were found.
 
 - #### Accessibility
-  - Acessibility passed the lighthouse testing and achieved a score of 100%.
-  - [lighthousescore](/assets/readme-images/screenshot-lighthouse.png)
+  - Acessibility passed the lighthouse testing and achieved a score of 100%.
+  - [lighthousescore](/assets/readme-images/screenshot-lighthouse.png)
 
 ### Form Testing
 
@@ -315,8 +315,8 @@ The Plant Collection does not sell the same products all year round and has spec
 ### Friends and Business Owners: User Testing
 
 - i took the website into the coffee shop to get the owners to user test it and give feedback on any changes that they would want.
-  - the owners gave me some written content to add to the page as well as images from the shop to add.
-  - [Owners Email](/assets/readme-images/screenshot-email-from-owners.png)
+- the owners gave me some written content to add to the page as well as images from the shop to add.
+- [Owners Email](/assets/readme-images/screenshot-email-from-owners.png)
 
 - i asked some friends to try out the site to find any bugs or issues with the user experience.
 
